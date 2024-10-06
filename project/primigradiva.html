@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information for first-time pregnant women (Primigravida) including dietary plans and nutrients required.">
+    <title>Primigravida</title>
+    <style>
+        body {
+            background-color: #3ed4e7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            max-width: 150px;
+        }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-top: 120px;
+        }
+        .content, .diet-plan, .nutrients {
+            background-color: #3ed4e7;
+            border: 1px solid #34495e; /* Added border */
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px;
+            align-self: flex-start;
+            text-align: left;
+            display: flex;
+            flex-direction: column; /* Ensured content stacks vertically */
+        }
+        .text {
+            flex: 1;
+        }
+        .side-image {
+            position: absolute;
+            top: 160px;
+            right: 20px;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 1px solid #34495e; /* Added border */
+            border-radius: 8px;
+        }
+        h2 {
+            color: #34495e;
+        }
+        .button {
+            background-color: #0056b3;
+            color: rgb(255, 230, 7);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #14f51f;
+        }
+        table {
+            width: 100%; /* Ensure table takes full width */
+            border-collapse: collapse; /* Merge borders */
+        }
+        th, td {
+            border: 1px solid #34495e; /* Added borders to table cells */
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e1e1e1; /* Light background for header */
+        }
+        @media (max-width: 600px) {
+            .button-container {
+                flex-direction: column;
+            }
+            .side-image {
+                max-width: 100%;
+                position: relative;
+                margin: 10px 0;
+                width: 100%; /* Make image responsive */
+                height: auto; /* Responsive height */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\admin\OneDrive\Desktop\project\SHEFIT\SHEFIT.png" alt="SHEFIT Logo" class="logo">
+        <div class="button-container">
+                  <button class="button" onclick="location.href='index.html'">Home</button>
+            <button class="button" onclick="location.href='girl child.html'">Girl</button>
+            <button class="button" onclick="location.href='primigradiva.html'">Primigravida</button>
+            <button class="button" onclick="location.href='working women.html'">Working Women</button>
+            <button class="button" onclick="location.href='purpera.html'">Purpera</button>
+            <button class="button" onclick="location.href='housewives.html'">Housewives</button>
+            <button class="button" onclick="location.href='progress tracker.html'">Progress Tracker</button>
+            <button class="button" onclick="location.href='yoga.html'">Yoga</button>
+        </div>
+    </header>
+
+
+    <img src="C:\Users\admin\OneDrive\Desktop\project\SHEFIT/primigravida.jpg" alt="Primigravida Information" class="side-image">
+
+
+    <main>
+        <section class="content">
+            <h1>Understanding Primigravida</h1>
+            <p>A primigravida is a woman who is pregnant for the first time. This term is often used in medical contexts to describe a first-time pregnancy, as it can have implications for both the mother and the developing fetus.</p>
+            <p>It's essential for primigravidas to receive proper prenatal care to ensure the health and wellbeing of both mother and baby.</p>
+        </section>
+
+
+        <section class="diet-plan">
+            <h2>Dietary Plan for Primigravidas</h2>
+            <ul>
+                <li><strong>Fruits and Vegetables:</strong> Aim for a variety of colors...</li>
+                <li><strong>Whole Grains:</strong> Incorporate whole-grain...</li>
+                <li><strong>Proteins:</strong> Include lean meats...</li>
+                <li><strong>Dairy:</strong> Consume milk, yogurt...</li>
+                <li><strong>Hydration:</strong> Drink plenty of water...</li>
+                <li><strong>Supplements:</strong> Consider prenatal vitamins...</li>
+            </ul>
+        </section>
+
+
+        <section class="nutrients">
+            <h2>Nutrients Required for Primigravidas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Recommended Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Folic Acid</td>
+                        <td>600 mcg per day</td>
+                    </tr>
+                    <tr>
+                        <td>Iron</td>
+                        <td>27 mg per day</td>
+                    </tr>
+                    <tr>
+                        <td>Calcium</td>
+                        <td>1,000 mg per day</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>75-100 grams per day</td>
+                    </tr>
+                    <tr>
+                        <td>Omega-3 Fatty Acids</td>
+                        <td>200-300 mg</td>
+                    </tr>
+                    <tr>
+                        <td>Carbohydrates</td>
+                        <td>≥175 g/d</td>
+                    </tr>
+                    <tr>
+                        <td>Fats</td>
+                        <td>30% or less of daily intake</td>
+                    </tr>
+                    <tr>
+                        <td>Dietary Fiber</td>
+                        <td>20-35 grams</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+
+
